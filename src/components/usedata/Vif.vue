@@ -1,16 +1,19 @@
 <template>
-    <div class="createComponents">
-        {{ sStr }}
+    <div>
+        <!-- v-if 사용
+        <div v-if="sStr === ''">
+            아무거나
+        </div>
+        v-if 사용 -->
     </div>
 </template>
 
 <script>
 export default {
-  name: 'CreateComponents',
-
+  name: 'Vif',
   data() {
       return {
-          sStr: "컴포넌트 생성",
+          sStr: "",
           sList: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       }
   }

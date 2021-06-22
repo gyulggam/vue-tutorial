@@ -3,19 +3,25 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <CreateComponents />
+    <UseDataSample/>
+    <ParentsSample/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import CreateComponents from './components/CreateComponents.vue'
+import UseDataSample from './components/UseDataSample.vue'
+import ParentsSample from './components/props/Parents.vue'
 
 export default {
-  name: 'App',
-  components: {
+    name: 'App',
+    components: {
         HelloWorld,
         CreateComponents,
-  }
+        UseDataSample,
+        ParentsSample,
+    }
 }
 </script>
 

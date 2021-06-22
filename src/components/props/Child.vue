@@ -1,19 +1,22 @@
 <template>
-    <div class="createComponents">
-        {{ sStr }}
+    <div class="Child">
+        {{ pPropsData }}
     </div>
 </template>
 
 <script>
 export default {
-  name: 'CreateComponents',
-
-  data() {
-      return {
-          sStr: "컴포넌트 생성",
-          sList: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      }
-  }
+    name: 'Child',
+    props: [
+        'pPropsData',
+    ],
+    created() {
+      this.$emit('sEmitData', [1,2,3,4,5,6,7,8,9,10])
+    },
+    data() {
+        return {
+        }
+    }
 }
 </script>
 
