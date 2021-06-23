@@ -1,19 +1,12 @@
 <template>
     <div class="createComponents">
-        {{ sStr }}
+        새로운 컴포넌트 입니다.
     </div>
 </template>
 
 <script>
 export default {
   name: 'CreateComponents',
-
-  data() {
-      return {
-          sStr: "컴포넌트 생성",
-          sList: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      }
-  }
 }
 </script>
 
