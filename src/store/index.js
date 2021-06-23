@@ -4,13 +4,21 @@ import VueX from 'vuex'
 
 Vue.use(VueX)
 
-export default new Vuex.Store({
+export default new VueX.Store({
     state: {
-        gMessage: 'testMessage'
+        gMessage: 'testMessage',
+        gUser: {
+            age: 50,
+            name: '111',
+            engname: '222',
+        },
     },
     mutations: {
-            setMessage(state, aMsg) {
-                state.gMessage = aMsg
-            }
+        setMessage(state, aMsg) {
+            state.gMessage = aMsg
+        },
+        setUser(state, aUser) {
+            state.gUser = aUser
+        }
     },
 });

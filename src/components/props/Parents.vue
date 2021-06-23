@@ -17,7 +17,6 @@ export default {
     },
     methods: {
         emittest(aData) {
-            console.log(aData);
             this.sEmitDatas = aData;
         }
     },
