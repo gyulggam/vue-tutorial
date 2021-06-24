@@ -1,8 +1,8 @@
 <template>
     <div>
-        <!-- <h1>v for 사용 배열</h1>
+        <h1>v for 사용 배열</h1>
         <div class="forDiv">
-            <div v-for="aItem in sList" :key="`${aItem}int`">
+            <div v-for="(aItem, aIdx) in sList" :key="`${aItem}${aIdx}int`">
                 {{ aItem }}
             </div>
         </div>
@@ -12,7 +12,7 @@
             <div v-for="aItem in 5" :key="`${aItem}int`">
                 {{ aItem }}
             </div>
-        </div> -->
+        </div>
     </div>
 </template>
 

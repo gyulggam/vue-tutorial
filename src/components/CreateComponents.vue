@@ -1,6 +1,6 @@
 <template>
     <div class="createComponents">
-        새로운 컴포넌트 입니다.
+         sdafasfasdfasdf
     </div>
 </template>
 

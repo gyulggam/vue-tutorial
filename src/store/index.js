@@ -12,6 +12,11 @@ export default new VueX.Store({
             name: '111',
             engname: '222',
         },
+        gUserInfo:{
+            age: 50,
+            name: '111',
+            engname: '222',
+        }
     },
     mutations: {
         setMessage(state, aMsg) {
@@ -19,6 +24,9 @@ export default new VueX.Store({
         },
         setUser(state, aUser) {
             state.gUser = aUser
+        },
+        setgUserInfo(state, aInfo) {
+            state.gUserInfo = aInfo
         }
     },
 });

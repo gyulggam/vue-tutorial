@@ -7,7 +7,7 @@
 
         <div class="inputLine">
             <label >이름</label>
-            <input type="text" v-model="sUserInfo.name">
+            <input type="text" value="456456">
         </div>
         
         <div>

@@ -1,6 +1,10 @@
 <template>
     <div>
-        <div @click="clickEvent"></div>
+        <div @click="clickEvent">
+            클릭
+        </div>
+
+        {{ sStr }}
     </div>
 </template>
 

@@ -1,6 +1,7 @@
 <template>
     <div class="Child">
         {{ pPropsData }}
+        {{ pPropsSecData }}
     </div>
 </template>
 
@@ -9,6 +10,7 @@ export default {
     name: 'Child',
     props: [
         'pPropsData',
+        'pPropsSecData'
     ],
     created() {
       this.$emit('sEmitData', [1,2,3,4,5,6,7,8,9,10])

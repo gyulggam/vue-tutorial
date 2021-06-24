@@ -1,10 +1,8 @@
 <template>
     <div>
-        <!-- v-if 사용
-        <div v-if="sStr === ''">
+        <div v-if="sStr === 'sdafasdf'">
             아무거나
         </div>
-        v-if 사용 -->
     </div>
 </template>
 

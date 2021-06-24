@@ -3,6 +3,7 @@
         Parents
         <ChildPage  :pPropsData="sStr"
                     @sEmitData="emittest"/>
+        <ChildPage :pPropsSecData="sString" />
         {{ sEmitDatas }}
     </div>
 </template>
@@ -23,6 +24,7 @@ export default {
     data() {
         return {
             sStr: "프롭스",
+            sString: "string",
             sEmitDatas: [],
         }
     }
